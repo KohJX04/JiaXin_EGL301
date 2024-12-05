@@ -22,10 +22,6 @@ External Node Modules
 2. Mongoose: Used to interact with MongoDB, define models for movies, users, and reviews.
 3. dotenv: Manages environment variables (e.g., API keys, MongoDB URI, JWT secrets).
 
-Database Schema (MongoDB)
-1. Movies Collection: Stores movie details like title, description, genre, rating, poster, runtime, etc.
-2. Users Collection: Stores user information such as username, email, password, and profile image.
-3. Reviews Collection: Stores user reviews for movies, including ratings, review text, movie ID, and user ID.
 
 References
 https://www.themoviedb.org/documentation/api 
