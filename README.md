@@ -1,12 +1,32 @@
-# Assignment 1
+Project Title:  The Movie
 
-You will only need one file, ie, your node module, for this assignment.
+Background
+The Movie is a movie review web application that allows users to browse movies, rate them, and write reviews. The goal is to create an engaging platform where movie lovers can interact with movie data, share their thoughts, and discover new movies.
 
-In this readme file, describe how to use your node module. It could be similar to **app.js** from Lab2, where you call some functions in your node module and display the output. Describe how to setup your node module, if any. Describe how to call the functions, what parameters required and so on.
+Key Features
+•	User Registration and Login: Users can register and log in to the platform.
+•	Movie Browsing: Browse a list of movies, view movie details, release date, cast, ratings, and posters.
+•	Review and Rating System: Registered users can rate movies and write reviews.
+•	Admin Panel: Admin users can create, read, update, and delete movies.
+•	Search Functionality: Search movies by title, genre, or rating.
+•	Responsive Design: Works across desktop and mobile devices.
 
-You can press **Ctrl+Shift+V** in this file in Visual Studio Code to see a live preview of the readme file.
+External APIs
+1. The Movie Database (TMDb) API:
+   Usage: Fetch movie details, posters, genres, and ratings.
+   How it's used: Display real-time movie data in the app.
 
-For some tips in formatting text in readme file, refer to https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+External Node Modules
 
-# References
-Provide the references that you have used to support your assignment. 
+1. Express.js: Used to set up the server and handle routes for user authentication, movie management, and reviews.
+2. Mongoose: Used to interact with MongoDB, define models for movies, users, and reviews.
+3. dotenv: Manages environment variables (e.g., API keys, MongoDB URI, JWT secrets).
+
+Database Schema (MongoDB)
+1. Movies Collection: Stores movie details like title, description, genre, rating, poster, runtime, etc.
+2. Users Collection: Stores user information such as username, email, password, and profile image.
+3. Reviews Collection: Stores user reviews for movies, including ratings, review text, movie ID, and user ID.
+
+References
+https://www.themoviedb.org/documentation/api 
+https://www.npmjs.com/package/dotenv
